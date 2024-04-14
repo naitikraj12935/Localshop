@@ -1,0 +1,18 @@
+.header{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.header>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.header >ul>li{
+    margin-left: 10px;
+    cursor: pointer;
+}

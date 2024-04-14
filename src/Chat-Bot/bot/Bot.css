@@ -1,0 +1,52 @@
+/* Hide the right-hand side scrollbar while keeping overflow scroll */
+.react-chatbot-kit-chat-message-container {
+    overflow-y: scroll;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    border-radius: 14px;
+    
+  }
+  
+  /* Hide the scrollbar thumb and track in WebKit browsers (e.g., Chrome, Safari) */
+  .react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the thumb */
+  }
+  
+  .react-chatbot-kit-chat-message-container::-webkit-scrollbar-track {
+    background-color: transparent; /* Hide the track */
+  }
+  
+  .react-chatbot-kit-chat-input-container input {
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+    padding: 10px; /* Add padding for better appearance */
+    font-size: 14px; /* Adjust font size as needed */
+    /* Add more styles as needed */
+  }
+
+  .react-chatbot-kit-chat-bot-avatar-container {
+    background-color: purple;
+    color: white;
+}
+.react-chatbot-kit-chat-container {
+  width: 400px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 10px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #61045F;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #61045F;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #61045F;
+}

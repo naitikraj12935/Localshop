@@ -1,0 +1,6 @@
+.scroll-item {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* Add any other necessary styles */
+}
